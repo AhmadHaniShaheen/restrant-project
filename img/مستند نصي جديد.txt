@@ -1,0 +1,50 @@
+.form{
+    width: 40%;
+    height: 200px;
+    padding: 20px; 
+    
+}
+.form h3{
+    color:orangered;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.form .input{
+    width: auto;
+    color: black;
+    padding: 20px;
+}
+.input .insideput{
+    width: 100%;
+    border:5px solid red;
+    height: 50px;
+    font-size: 30px;
+}
+.input7{
+    width: 100%;
+    border:5px solid red;
+    height: 50px;
+    font-size: 30px;
+}
+.but6{
+    text-transform: capitalize;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: block;
+    flex-direction: column-reverse;
+    width: 40%;
+    line-height: 30;
+    
+}
+.but6 .botoon4{
+    width: 80%;
+    height: 30px;
+    color: black;
+    border: 2px solid red;
+    padding: 10%;
+
+}

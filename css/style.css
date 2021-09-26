@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.head{
+    display: flex;
+    background-color: #DCE9ED;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.head .logo{
+    color: #ECCDC9;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+.head .logo h1{
+    text-transform: uppercase;
+}
+.head .logo h1:hover{
+    cursor: pointer;
+}
+.head .logo h1 span{
+    color: red;
+}
+
+.link{
+    color: #6B4431;
+    margin: 20px;
+    line-height: 3;
+    text-transform: capitalize;
+}
+.link:hover{
+    color: white;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/pexels-photo-1640774.jpeg);
+    background-size: cover;
+    height: 760px;
+    display: flex;
+    margin-bottom: 10%;
+
+}
+.banner .content{
+    max-width: 800px;
+    font-weight: 300;
+}
+.banner .content h2{
+    text-align: center;
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.q{
+    color: red;
+}
+.banner .content p{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+}
+.bot{
+    background-color: wheat;
+    color: black;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10%;
+    margin: 10px auto;
+}
+.bot:hover{
+    letter-spacing: 5px;
+    width: 12%;
+}
+/* ========================================================= */
+.about{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10%;
+}
+.text{
+    width: 40%;
+    text-align: center;
+    
+}
+.text h2{
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 20px;
+    font-size: 50px;
+}
+.text h2 .aboutsp{
+    text-transform: uppercase;
+    color: red;
+    padding-top: 10%;
+   
+}
+.text p{
+    font-size: 20px;
+    word-spacing: 5px;
+    margin: 20px;
+    justify-content: center;
+    line-height: 35px;
+}
+.aboutimage{
+    justify-content: center;
+    border-radius: 5px;
+    padding: 100px;
+    
+}
+.hc{
+    margin-bottom: 5%;
+}
+.menue{
+    margin-bottom: 10%;
+}
+.sec3H{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.pra{
+    text-align: center;
+    text-transform: capitalize; 
+}
+.menueimage{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap-reverse;
+    align-content: space-between;
+    margin: 5% 10% 2%;
+    justify-content: center;
+}
+.sec3sp{
+    color: red;
+    
+}
+.box1{
+    padding: 2%;
+    flex-wrap: wrap-reverse;
+    width: 30%;
+    flex-direction: row-reverse;
+    text-align: center;
+    
+}
+.box1 .imagea .forimage{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.foodName{
+    padding: 20px;
+    text-transform: capitalize;
+    margin: auto;
+    width: 210px;
+    font-size: 25px;
+}
+.bot2{
+    background-color: wheat;
+    color: black;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
+.bot2:hover{
+    letter-spacing: 5px;
+    width: 40%;
+    font-family: cursive;
+}
+.allboxsec3{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    justify-content: center;
+
+}
+.box2{
+    width: 23%;
+    height: 250px;
+    text-transform: capitalize;
+    padding: 10px;
+    align-content: center;
+}
+.box2 .shifimag{
+    width: 100%;
+    height: 200px;
+}
+.box2 .shifhead{r;
+    text-align: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 30px;
+}
+/* -============================================== */
+.sec5{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background: url('../img/back.jpg') no-repeat center center;
+    background-size: cover;
+    height: 760px;
+    margin: auto;
+}
+.allsec{
+    height: 760px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+   
+}
+.allbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5{
+    width: 30%;
+    height: 400px;
+    background: white;
+    overflow: hidden;
+    margin: auto;
+    padding: 3%;
+}
+.text5{
+    text-align: center;
+    justify-content: center;
+    margin: 3%;
+    color:white;
+    padding: 10px;
+}
+.headsaid{
+    text-transform: capitalize;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.10);
+    font-family: cursive;
+    
+}
+
+.said{
+    color: red;
+}
+.pra4{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+.insidebox{
+    margin: auto;
+    text-align: center;
+    
+}
+
+.image5{
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.head4{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgb(240, 112, 112);
+}
+.head4:hover{
+    cursor: pointer;
+}
+.sec6{
+   background-color: #ddd;
+   height: 600px;
+  
+   
+}
+.text6{
+    text-align: center;
+    justify-content: center;
+    color:white;
+    display: block;
+    padding: 20px;
+    
+
+}
+.headsaid2{
+text-transform: capitalize;
+font-size: 50px;
+font-family: cursive;
+color: black;
+}
+.text6 p{
+    color: black;
+}
+.undertit{
+    display: flex;
+}
+.form{
+    padding: 5%;
+    width: 30%;
+    background: white;
+    margin: 22px;
+    height: 400px;
+    
+}
+.form h3{
+    text-transform: capitalize;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+.form .input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.form .inputeara{
+    padding: 10px;
+    width: 77%;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.bo{
+    padding: 10px;
+    width: 10%;
+    margin-top: 10px;
+}
+.botoon4{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    color: red;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.botoon4:hover{
+    background: radial-gradient(#ea2f2f, transparent);
+    cursor: pointer;
+}
+.sec6image{
+    width: 60%;
+    text-align: center;
+    align-content: center;
+}
+.insidsec6{
+    
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    margin: 20px;
+
+}
+.insideput{
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid red;
+}
+.input7{
+    height: 40px;
+    font-size: 18px;
+    width: 100%;
+}
+.copyrite{
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    background: #ddd;
+}
+
+.copyrite p{
+    color: black;
+}
+.copyrite a{
+    color:red;
+    font-weight: 500px;
+}

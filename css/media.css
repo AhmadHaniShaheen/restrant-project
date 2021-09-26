@@ -1,0 +1,180 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .head {
+        display: none;
+    }
+ .banner{
+    width: 100%;
+    height: 400px;
+    align-content: center;
+    align-items: center;
+
+}
+.banner .content h2{
+    font-size: 30px;
+}
+.banner .content p {
+    font-size: 17px;
+}
+.bot {
+    background-color: wheat;
+    color: black;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    width: 70px;
+    margin: 20px auto;
+}
+.bot:hover{
+    letter-spacing: 1px;
+    width: 12%;
+}
+.about {
+    width: 100%;
+    margin-bottom: 10%;
+    display: flow-root;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    
+}
+.text h2 {
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 30px;
+    width: 50%;
+}
+.text p{
+    width: 100%;
+    padding-right: 16px;
+    
+}
+.imagea{
+    width: 100%;
+}
+.aboutimage{
+    width: 100%;
+    
+}
+.sec3H{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.menueimage {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    
+}
+.box1 {
+    padding: 2%;
+    width: 100%;
+}
+.bot2{
+    width: 50%;
+    font-size: 30px;
+}
+.bot2:hover{
+    letter-spacing: 1px;
+    width: 55%;
+    font-family: cursive;
+}
+.allboxsec3{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box2{
+    width: 100%;
+    height: 250px;
+}
+
+
+.box2 .shifhead {
+    text-align: center;
+    align-items: center;
+    margin: 2%;
+    font-size: 25px;
+}
+
+.sec5 {
+    display: flex;
+    height: 1000px;
+}
+.allsec {
+    height: 1000px;
+}
+.allbox {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.box5 {
+    width: 100%;
+    background: white;
+    overflow: hidden;
+    margin: 5%;
+    padding: 3%;
+    height: 200px;
+}
+.headsaid {
+    text-transform: capitalize;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.10);
+    font-family: cursive;
+}
+.pra4{
+    font-size: 13px;
+}
+.head4 {
+    font-size: 20px;
+}
+.headsaid2 {
+    font-size: 30px;
+}
+.sec6 {
+    padding: 20px;
+    height: 810px;
+}
+.undertit{
+    display: flow-root;
+    height: 650px;
+}
+.form {
+    padding: 5%;
+    width: 90%;
+    height: 300px;
+}
+.form .inputeara {
+    padding: 10px;
+    width: 85%;
+    height: 40px;
+}
+.sec6image {
+    width: 100%;
+}
+.insidsec6 {
+    width: 90%;
+    height: 250px;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
