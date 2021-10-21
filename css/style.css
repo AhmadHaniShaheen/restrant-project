@@ -46,7 +46,7 @@ a{
     align-items: center;
     background: url(../img/pexels-photo-1640774.jpeg);
     background-size: cover;
-    height: 760px;
+    height: 100vh;
     display: flex;
     margin-bottom: 10%;
 
